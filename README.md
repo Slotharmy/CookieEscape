@@ -1,6 +1,6 @@
 # CookieEscape
 
-##How does it work?
+## How does it work?
 
 As a user browsing on the internet you have to constantly accept or reject your cookies preferences. It is, however, impractical to click through various pop-ups and banners that often lack standardized design.
 
@@ -8,7 +8,7 @@ Our tool makes your browsing experience smoother and saves time and energy by ma
 
 You can either turn off the plug-in and accept cookies to browse the respective webpage or, alternatively, follow one of our suggestions and switch to another website without cookies. 
 
-##How does the prototype work?
+## How does the prototype work?
 
 The background.js is automatically executed when the extension is loaded. On every tab update we look for the current URL and the current tab. This information is then passed to the popup.js for further use. By now, everything is static. This means our cookie extension does only work for one specific site with low security standards. In the future we want to automatically take the correct HTML element (cookie banner) for the correct site. 
 
